@@ -1,0 +1,40 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.quill > .ql-toolbar:first-of-type {
+  display: none;
+}
+
+.ql-toolbar .ql-list svg .ql-stroke {
+  stroke: white;
+}
+
+.ql-snow .ql-picker.ql-header .ql-picker-label svg .ql-stroke {
+  stroke: white;
+}
+
+.ql-snow .ql-formats svg .ql-stroke {
+  stroke: white;
+}
+
+.ql-snow .ql-picker.ql-header .ql-picker-label::before {
+  color: white;
+}
+
+.ql-editor {
+  color: white;
+}
